@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 
 const Category = () => {
   return (
-    <div>
+    <div className='mt-4'>
         <ul class="nav justify-content-center">
   <li class="nav-item">
     <Link class="nav-link active" aria-current="page" href="#">Active</Link>
@@ -33,7 +33,7 @@ const Category = () => {
 
 </ul>
 <div className='.container-md align-items-center'>
-<div class="row row-cols-1 row-cols-md-2 g-4">
+<div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
 <Post />
 <Post />
 <Post />

@@ -8,7 +8,7 @@ import Create from "./page/Create";
 
 function App() {
   return (
-    <div className="container-sm">
+    <div className="bg-secondary overflow-x-hidden">
       <Routes>
 
         <Route path="/" element={<Home />} />
