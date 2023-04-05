@@ -7,7 +7,11 @@ const Detail = () => {
     <div className="container-md" style={{ maxWidth: "850px"}}>
     <Navbar />
     <h2 className='text-center mt-4 mb-4'>Post Title</h2>
-    
+    <div className='d-flex justify-content-around'>
+    <h8 className="mb-3">Date</h8>
+    <h8>Date</h8>
+
+    </div>
     <div className='bg-secondary'>
     <div class="card border border-primary">
       <img src="https://images.pexels.com/photos/1150988/pexels-photo-1150988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top p-2" alt="..." />
