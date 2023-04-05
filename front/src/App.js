@@ -8,7 +8,7 @@ import Create from "./page/Create";
 
 function App() {
   return (
-    <div className="container-md">
+    <div className="container-sm">
       <Routes>
 
         <Route path="/" element={<Home />} />

@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 const Home = () => {
   return (
-    <div className="container-md">
+    <div className="container-md" style={{ maxWidth: "850px"}}>
         <Navbar />
         <Category />
         <Footer />
